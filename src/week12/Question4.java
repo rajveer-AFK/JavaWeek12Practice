@@ -3,11 +3,9 @@ package week12;
 public class Question4 {
 
 	public static void main(String[] args) {
-		
 		int[] numbersArray = {2,7,4,14,24,69,12,84};
 		
 		System.out.println(recursiveArraySearch(numbersArray, 2, 0));
-
 	}
 	
 	public static boolean recursiveArraySearch(int[] array, int searchValue, int start) {
@@ -21,5 +19,4 @@ public class Question4 {
 			return recursiveArraySearch(array, searchValue, start+1);
 		}
 	}
-	
 }

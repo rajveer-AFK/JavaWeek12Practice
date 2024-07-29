@@ -4,7 +4,6 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		System.out.println(recursiveMultiplication(6,12));
-		
 	}
 	
 	public static int recursiveMultiplication(int x, int y) {
@@ -15,5 +14,4 @@ public class Question1 {
 			return y + recursiveMultiplication(x-1, y);
 		}
 	}
-
 }

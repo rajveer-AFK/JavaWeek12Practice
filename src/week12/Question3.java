@@ -17,7 +17,6 @@ public class Question3 {
 		input.close();
 		
 		System.out.println(recursiveSum(number));
-
 	}
 	
 	public static int recursiveSum(int number) {
@@ -28,7 +27,4 @@ public class Question3 {
 			return number + recursiveSum(number-1);
 		}
 	}
-	
-	
-
 }

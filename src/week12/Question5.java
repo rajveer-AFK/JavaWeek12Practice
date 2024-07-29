@@ -6,7 +6,6 @@ public class Question5 {
 		int[] numbersArray = {7,3,9,24,21,18,15,84};
 		
 		System.out.println("The largest number is: " + maxElement(numbersArray, 0, numbersArray[0])); 
-
 	}
 	
 	public static int maxElement(int[] array, int start, int largestNumber) {
